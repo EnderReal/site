@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Ubuntu:ital,wght@0,500;0,700;1,500&display=swap');
+
+body{
+    background: url(background_login.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    /* padding: 20em 0em; */
+    /* width: 50%; */
+    /* height: 60%; */
+    width: 30em;
+    height: 35em;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(2.5px);
+}
+
+.login .header{
+    padding: .5em 0em .1em;
+
+    color: #385170;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    /* font-style: italic; */
+}
+
+.login .data{
+    margin: 2em;
+}
+
+.login .data input{
+    background: rgba(0, 0, 0, .8);
+    backdrop-filter: blur(50px);
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    padding: 1em 1em;
+    width: 24em;
+    height: 4em;
+    margin: 1em 1em;
+    color: #d4e1f0;
+    /* text-transform: uppercase; */
+    font-family: "Open Sans", sans-serif;
+    font-size: .9em;
+}
+
+
+.login .login_button .submit{
+    color: #ffffff;
+    border: none;
+    background-color: #385170;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 24em;
+    height: 4em;
+    padding: 1em 1em;
+    margin: 0em 1em;
+}
+
+.login .login_button .submit:hover{
+    background-color: #2c4058;
+    cursor: pointer;
+}
+
+.login .forgot .forgot_button{
+    background-color: #ffffff00;
+    border: none;
+    color: #385170;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.login .forgot .forgot_button:hover{
+    cursor: pointer;
+    color: #2c4058;
+}
+
