@@ -7,7 +7,7 @@ body{
 }
 
 .back{
-    background-color: #385170;
+    background-color: none;
     height: 2em;
     width: 2em;
     padding: .5em;
@@ -15,12 +15,14 @@ body{
 }
 
 .back .line_1{
+    background-color: #385170;
     width: 1.75em;
     height: .35em;
     transform: rotate(45);
 }
 
 .back .line_2{
+    background-color: #385170;
     width: 1.75em;
     height: .35em;
     transform: rotate(-45);
