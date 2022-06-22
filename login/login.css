@@ -11,17 +11,17 @@ body{
     height: 2em;
     width: 2em;
     padding: .5em;
-    text-align: right;
+    float: right;
 }
 
 .back .line_1{
-    width: 100%;
+    width: 1.75em;
     height: .35em;
     transform: rotate(45);
 }
 
 .back .line_2{
-    width: 100%;
+    width: 1.75em;
     height: .35em;
     transform: rotate(-45);
 }
