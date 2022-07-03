@@ -16,13 +16,19 @@ body {
 
 .header .top_bar{
     /* background-color: #eeeeee; */
-    width: 40%;
-    margin-left: 30%;
-    /* margin-top: 1em; */
+    /* width: 40%; */
+    /* margin-left: 30%; */
     padding: 1em;
-    /* transform: translate( 50%, 0%); */
-    display: flex;
-    justify-content: space-between;
+    /* transform: translate( 50%, 0%); */    
+}
+
+.header .top_bar div{
+    display: inline-block;
+}
+
+.header .top_bar .spacer{
+    margin-left: 14em;
+    margin-right: 13em;
 }
 
 .header .top_bar a{
@@ -32,7 +38,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 1em;
-    /* margin: 0em 1em 0em 10em; */
+    margin-left: 3em;
+    margin-right: 3em;; 
     text-decoration: none;
 }
 
