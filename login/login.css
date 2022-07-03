@@ -7,10 +7,9 @@ body{
 }
 
 .back{
-    z-index: 1;
     position: absolute;
-    top: 21.5%;
-    left: 69%;
+    right: 1em;
+    top: 0.5em;
     /* background-color: #eeeeee; */
     height: 2em;
     width: 2em;
